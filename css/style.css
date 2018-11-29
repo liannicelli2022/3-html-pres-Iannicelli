@@ -1,0 +1,150 @@
+body, html, p {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: 30px;
+    color: #ffc1c1
+}
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/20150821_deadfish.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img3 { 
+    /* The image used */
+    background-image: url("/img/Sea%20turtle.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img2 { 
+    /* The image used */
+    background-image: url("/img/Plastic%20Bags%20underwater.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img1 { 
+    /* The image used */
+    background-image: url("/img/Plastic-bags%20usage.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img4 { 
+    /* The image used */
+    background-image: url("/img/Plastic%20Pollution.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img5 { 
+    /* The image used */
+    background-image: url("/img/Plastic%20bag%20in%20the%20air.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+}
+
+.black-transparent {
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 8vh;
+    font-size: 4vw;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 1;
+    bottom: 4;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+@media (max-width:600px) {
+    #myVideo {
+        position: fixed;
+        left: 0;
+        bottom:0;
+        min-width: 100%;
+        height: 100%} 
+}
+
+li {
+    font-size: 30px
+}
+
